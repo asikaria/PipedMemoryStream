@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <OutputTypeEx>library</OutputTypeEx>
+    <StartupObject />
+    <RootNamespace>PipedMemoryStream</RootNamespace>
+    <TargetFrameworks>netstandard1.4</TargetFrameworks>
+    <PackageId>Widgeteer.PipedMemoryStream</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>ASikaria</Authors>
+    <Description>
+Provides a memory-based two-way stream for inter-thread communication, similar to a 
+socket or a pipe.
+	
+This can be used as a communication mechanism, and also as a mock mechanism for testing network 
+programs - thread(s) on one side write data and thread(s) on other side receive the data. Whatever 
+is written on one end becomes available to read on the other end. 
+
+For details see the project site: https://github.com/asikaria/PipedMemoryStream
+	</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Atul Sikaria. All rights reserved.</Copyright>
+    <PackageTags>piped memory stream</PackageTags>
+	<RepositoryUrl>https://github.com/asikaria/PipedMemoryStream</RepositoryUrl>
+	<PackageProjectUrl>https://github.com/asikaria/PipedMemoryStream</PackageProjectUrl>
+	<PackageLicenseUrl>https://raw.githubusercontent.com/asikaria/PipedMemoryStream/master/LICENSE.txt</PackageLicenseUrl>
+  </PropertyGroup>
+</Project>
