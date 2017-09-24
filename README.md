@@ -22,11 +22,11 @@ To use:
  - Import from NuGet: `Widgeteer.PipedMemoryStream`
 
 In code, use namespace:
-  `using RandomByteStream;`
+ - `using PipedMemoryStream;`
   
-Instantiate the stream:
-  `Stream s = new RandomByteStream();`
-  
-Read from the Stream, as usual:
-  `int numbytes = s.Read(buffer, offset, count);`
+Use one of the 4 classes:
+ - `ByteBufferBidirectionalStream`
+ - `ByteBufferUnidirectionalStream`
+ - `ByteBufferStream`
+ - `CircularByteBuffer`
 
